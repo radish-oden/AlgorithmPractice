@@ -14,9 +14,16 @@ namespace WindowsFormsApp1
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
+            BubbleSort bubbleSort = new BubbleSort();
+            bubbleSort.Bubble();
+
+            SelectionSort selectionSort = new SelectionSort();
+            selectionSort.Selection();
+
+
+            /*Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form1());*/
         }
     }
 }

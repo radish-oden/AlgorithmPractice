@@ -60,6 +60,10 @@
       <Project>{ce419f5b-7e76-4f65-b6f4-755513f5083b}</Project>
       <Name>algorithm</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WindowsFormsApp1\WindowsFormsApp1.csproj">
+      <Project>{1422F070-79ED-413C-9081-AFFF09A47517}</Project>
+      <Name>WindowsFormsApp1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
