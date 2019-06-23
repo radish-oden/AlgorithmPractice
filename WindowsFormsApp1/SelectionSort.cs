@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    class SelectionSort
+    public class SelectionSort
     {
 
         public int[] Selection()
@@ -16,22 +16,27 @@ namespace WindowsFormsApp1
             int number;
 
 
-            for (Int32 i = 0; i < numbers.Length - 1; i++)
+            int i; // 配列の先頭を指すインデックス
+            int j; // 残りの要素を指すインデックス
+            int min; // 最小値を持つ要素のインデックス
+            int temp; // 交換用の一時変数
+
+            for (i = 0; i < numbers.Length - 1; i++)
             {
-                Int32 min = i;
-                for (Int32 t = i + 1; t < numbers.Length; t++)
-                {
-                    if (numbers[t] < numbers[min])
+                min = i; // 配列の先頭を最小値の要素とする
+                for (j = i + 1; j < numbers.Length; j++)
+                { // 比較のループ
+                    if (numbers[j] < numbers[min])
                     {
-                        min = t;
+                        min = j; // 最小値を持つ要素を更新
                     }
                 }
-                //Swap(ref numbers[i], ref numbers[min]);
+                // 最小値を持つ要素を先頭の要素と交換
+                temp = numbers[i];
+                numbers[i] = numbers[min];
+                numbers[min] = temp;
             }
-
-
             return numbers;
         }
-
     }
 }

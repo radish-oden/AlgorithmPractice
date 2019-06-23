@@ -1,7 +1,6 @@
 C:\Users\mashiro\source\repos\radish-oden\AlgorithmPractice\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
 C:\Users\mashiro\source\repos\radish-oden\AlgorithmPractice\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
 C:\Users\mashiro\source\repos\radish-oden\AlgorithmPractice\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
-C:\Users\mashiro\source\repos\radish-oden\AlgorithmPractice\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
 C:\Users\mashiro\source\repos\radish-oden\AlgorithmPractice\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 C:\Users\mashiro\source\repos\radish-oden\AlgorithmPractice\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
 C:\Users\mashiro\source\repos\radish-oden\AlgorithmPractice\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
